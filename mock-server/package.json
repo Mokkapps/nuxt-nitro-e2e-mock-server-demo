@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "PORT=5005 nitro dev",
+    "start": "nitropack build && node server.mjs",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  }
+}
